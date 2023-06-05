@@ -17,6 +17,7 @@ def speak(str1):
 video=cv2.VideoCapture(0)
 facedetect=cv2.CascadeClassifier('data/haarcascade_frontalface_default.xml')
 # testing--dummy
+#dev
 with open('data/names.pkl', 'rb') as w :
     LABELS=pickle.load(w)
 with open('data/faces_data.pkl', 'rb') as f:
